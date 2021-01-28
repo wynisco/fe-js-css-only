@@ -1,7 +1,14 @@
 /* default file  */
 
+/* body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} */
 html {
     font-size: 10px;
+    text-align: center;
+    
 }
 p {
     font-size: 1.4rem; // This would be 14px (1.4 * 10px)
@@ -27,7 +34,6 @@ div {
 .top {
 height: 25px;
 border:1px solid yellow;
-text-align: center;
 font-size: large;
 }
 
@@ -35,6 +41,7 @@ font-size: large;
 height: 100px;
 border:1px solid orange;
 display: flex;
+justify-content: space-around;
 }
 
 .top2 {
