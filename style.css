@@ -1,15 +1,13 @@
-/* default file  */
 
-/* body {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-} */
-html {
-    font-size: 10px;
+html ,body {
+    font-size: 22px;
     text-align: center;
+    text-align: center;
+    margin:0px;
     
 }
+
+
 p {
     font-size: 1.4rem; // This would be 14px (1.4 * 10px)
 }
@@ -18,33 +16,68 @@ h1 {
 }
 
 div {
-    background-color: antiquewhite;
+   
 }
 
 .flex {
     display: flex;
 }
-.flexvertical {
-    display: flex;
-    flex-direction: column;
+
+.app {
+ /* margin:2px 5px 0px;
+ border:1px solid green; */
+ /* min-height: 800px; */
+ /* width: 99%; */
+ padding-top:40px;
 }
 
-
-
-.top {
-height: 25px;
-border:1px solid yellow;
-font-size: large;
+.events-container {
+ height:500px;
+ width:80%;
+ border:1px solid orange;
+ margin:auto;
+ padding-top: 50px;
 }
 
-.top1  {
-height: 100px;
-border:1px solid orange;
-display: flex;
-justify-content: space-around;
+.ob-container {
+ /* height:500px; */
+ width:80%;
+ border:1px solid orange;
+ margin:auto;
 }
 
-.top2 {
-height: 100px;
-border:1px solid red;
-}   
+.ad-container {
+ height:50px;
+ width:80%;
+ border:1px solid orange;
+ margin:auto;
+
+}
+
+.clock-container {
+height:130px;
+ width:80%;
+ border:1px solid orange;
+ margin:auto;
+ padding-top: 20px;
+
+}
+
+.bid-container {
+height:650px;
+ width:80%;
+ border:1px solid orange;
+ margin:auto;
+ padding-top: 20px;
+
+}
+
+.ask-container {
+    height:650px;
+     width:80%;
+     border:1px solid orange;
+     margin:auto;
+     padding-top: 20px;
+    
+    }
+    
